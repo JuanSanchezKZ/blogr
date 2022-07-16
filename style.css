@@ -48,6 +48,12 @@ body {
   padding: 0.5rem 0 0.5rem 0;
 }
 
+.buttons-start:hover {
+  background-color: hsl(355, 100%, 74%);
+  color: white;
+  cursor: pointer;
+}
+
 .buttons-learn-more {
   font-family: "Overpass", sans-serif;
   font-weight: 700;
@@ -116,6 +122,16 @@ body {
   font-size: 0.9rem;
   line-height: 250%;
   border-top-right-radius: 150px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 .bold {
