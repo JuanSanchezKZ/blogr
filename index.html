@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | [Blogr]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="header">
+        <div class="background-svg">
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="navbar navbar-expand-lg m-4">
+                <div class="container-fluid">
+                  <a class="navbar-brand ms-5 me-5" href="#"
+                    ><img src="/images/logo.svg" alt=""
+                  /></a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link me-3 dropdown-toggle"
+                          href="#"
+                          id="navbarDropdownMenuLink"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Product
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">Overview</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"> Pricing</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"> Marketplace</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"> Features</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"> Integrations</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item me-3 dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarDropdownMenuLink"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Company
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">About Team</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"> Blog</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"> Careers</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarDropdownMenuLink"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Connect
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li><a class="dropdown-item" href="#">Contact</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Newsletter</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">LinkedIn</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item d-flex align-items-center">
+                        <a class="nav-link">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">
+                          <div class="buttons-start">Sign Up</div></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <div class="desc">A modern publishing platform</div>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="desc-text">
+              <div class="col-sm-12 text-center">
+                Grow your audience and build your online brand
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="col-sm-12 d-flex justify-content-center mt-5">
+              <div class="buttons-start me-3 mb-5">Start for Free</div>
+              <div class="buttons-learn-more mb-5">Learn More</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row m-5">
+        <div class="designed-future text-center">Designed for the future</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="col-sm-8 m-5">
+            <div class="row">
+              <div class="title-desc m-3">Introducing an extensible editor</div>
+              <div class="desc-blogr m-3">
+                <p>
+                  Blogr features an exceedingly intuitive interface which lets
+                  you focus on one thing: creating content. The editor supports
+                  management of multiple blogs and allows easy manipulation of
+                  embeds such as images, videos, and Markdown. Extensibility
+                  with plugins and themes provide easy ways to add functionality
+                  or change the looks of a blog.
+                </p>
+              </div>
+              <div class="title-desc m-3">Robust content management</div>
+              <div class="desc-blogr m-3">
+                <p>
+                  Flexible content management enables users to easily move
+                  through posts. Increase the usability of your blog by adding
+                  customized categories, sections, format, or flow. With this
+                  functionality, you're in full control.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <img
+            class="img-fluid editor-img"
+            src="images/illustration-editor-desktop.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="row bg-phones align-items-center">
+        <div class="col-sm-6">
+          <img
+            class="img-overflow img-fluid"
+            src="images/illustration-phones.svg"
+            alt=""
+          />
+        </div>
+        <div class="col-sm-5">
+          <div class="state-of-art m-5">State of the Art Infrastructure</div>
+          <div class="state-of-art-desc m-5 mt-3">
+            <p>
+              With reliability and speed in mind, worldwide data centers provide
+              the backbone for ultra-fast connectivity. This ensures your site
+              will load instantly, no matter where your readers are, keeping
+              your site competitive.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 align-items-center">
+        <div class="col-sm-6 mt-5">
+          <img
+            class="img-fluid"
+            src="images/illustration-laptop-desktop.svg"
+            alt=""
+          />
+        </div>
+        <div class="col-sm-6 mt-5">
+          <div class="title-desc">Free, open, simple</div>
+          <div class="desc-blogr mt-3">
+            <p>
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+          <div class="title-desc mt-3">Powerful tooling</div>
+          <div class="desc-blogr mt-3">
+            <p>
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-footer justify-content-center">
+        <div class="col-sm-3 d-flex justify-content-center">
+          <div class="col-sm-4">
+            <img class="m-5" src="images/logo.svg" alt="" />
+          </div>
+        </div>
+        <div class="col-sm-3 d-flex justify-content-center">
+          <div class="col-2 m-5">
+            <div class="bold">Product</div>
+            Overview Pricing Marketplace Features Integrations
+          </div>
+        </div>
+        <div class="col-sm-3 d-flex justify-content-center">
+          <div class="col-2 m-5">
+            <div class="bold">Company</div>
+            About Team Blog Careers
+          </div>
+        </div>
+        <div class="col-sm-3 d-flex justify-content-center">
+          <div class="col-2 m-5">
+            <div class="bold">Connect</div>
+            Contact Newsletter LinkedIn
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
